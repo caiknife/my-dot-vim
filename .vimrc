@@ -20,6 +20,7 @@ else
     colo ron
 endif
 
+"vundle
 set nocompatible              " be iMproved
 filetype off                  " required!
 
