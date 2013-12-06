@@ -14,10 +14,12 @@ set ai
 if (has("gui_running"))
     set nowrap
     set guioptions+=b
+    set guifont=Monospace\ 12
+    colo torte
 else
     set wrap
+    colo ron
 endif
-colo ron
 
 "vundle
 set nocompatible              " be iMproved
