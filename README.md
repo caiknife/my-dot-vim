@@ -8,6 +8,8 @@ Usage:
 ##1
 
 ``` bash
+$ git clone https://github.com/caiknife/my-dot-vim ~/.vim
+
 $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 $ ln -s ~/.vim/.vimrc ~/.vimrc
