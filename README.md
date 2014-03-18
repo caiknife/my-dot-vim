@@ -17,6 +17,6 @@ $ ln -s ~/.vim/.vimrc ~/.vimrc
 
 ##2
 
-Open vim，run `:BundleInstall`.
+Open vim，run `:BundleInstall!`.
 
 Close vim.
