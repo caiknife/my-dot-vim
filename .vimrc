@@ -41,7 +41,7 @@ Bundle 'Shougo/neocomplcache.vim'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'tpope/vim-rails.git'
 Bundle 'scrooloose/nerdtree'
-Bundle 'evanmiller/nginx-vim-syntax'
+"Bundle 'evanmiller/nginx-vim-syntax'
 Bundle 'flazz/vim-colorschemes'
 " vim-scripts repos
 Bundle 'L9'
