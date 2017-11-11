@@ -29,7 +29,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 " My bundles here:
@@ -46,6 +46,9 @@ Bundle 'flazz/vim-colorschemes'
 " vim-scripts repos
 Bundle 'L9'
 Bundle 'FuzzyFinder'
+
+Plugin 'luochen1990/rainbow'
+let g:rainbow_active = 1 "0 if you want to enable it later via :RainbowToggle
 
 filetype plugin indent on     " required!
 "
@@ -148,4 +151,3 @@ let g:neocomplcache_omni_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplcache_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
-
