@@ -2,7 +2,11 @@
 syntax on
 set nocp
 set ru
-"set number
+set relativenumber
+set number
+set ignorecase
+set smartcase
+set expandtab
 set backspace=indent,eol,start
 set whichwrap=b,s,<,>,[,]
 set sw=4
@@ -10,6 +14,11 @@ set ts=4
 set et
 set lbr
 set ai
+set smartindent
+set cursorline
+set background=dark
+set signcolumn=yes
+"set cursorcolumn
 "set nobackup
 if (has("gui_running"))
     set nowrap
